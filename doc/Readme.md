@@ -1,6 +1,6 @@
 ## Synopsis
 
-This is a day one, full stack web app archetype for a generic web applications.
+This is a day one, full stack web app archetype for a generic web applications based on React/Srping-boot.
 
 To start a web app, checkout and refactor the code to start the "hello world" of your web app.
 

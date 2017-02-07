@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lowtech</groupId>
-	<artifactId>perfecto-services</artifactId>
+	<artifactId>dayone-services</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<parent>
 		<groupId>com.lowtech</groupId>
-		<artifactId>perfecto</artifactId>
+		<artifactId>dayone</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -56,7 +56,7 @@
 			<artifactId>docker-maven-plugin</artifactId>
 			<version>0.4.13</version>
 			<configuration>
-				<imageName>perfecto</imageName>
+				<imageName>dayone</imageName>
 				<baseImage>java</baseImage>
 				<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
 				<!-- copy the service's jar file from target into the root directory of the image -->
