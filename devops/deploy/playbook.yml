@@ -1,0 +1,12 @@
+---
+- hosts: all
+  remote_user: vagrant
+
+  tasks:
+  - name: dayone container
+    docker_container:
+      name: dayone
+      image: dayone
+      state: started
+      expose:
+      - 8085
